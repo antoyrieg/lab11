@@ -1,0 +1,42 @@
+body {
+	background-color: #246B61;
+}
+
+header {
+	background-color: #0D5047;
+	margin-top: -1%;
+    padding: 1%;
+    text-align: center;
+    width: 100%;
+    color: #D4AF6A;
+}	
+
+h3 {
+    color: #D4AF6A;
+}
+
+h5 {
+	color: #AA8239;
+}	
+
+.postAuthor::before {
+    content: 'by ';
+    padding-left: 15px;
+}
+
+li {
+	list-style: none;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	padding-left: 3%;
+	border-bottom: 4px dotted #0D5047;
+}
+
+.headerimage {
+	width: 3%;
+}	
+
+.thumbnail {
+    width: 20%;
+    padding-left: 20px;
+}
